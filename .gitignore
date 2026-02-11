@@ -1,0 +1,24 @@
+# Ignore Virtual Environment
+.venv/
+venv/
+env/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Dataset (Too large for GitHub)
+data/
+*.jsonl
+
+# Ignore Trained Models & Checkpoints (Too large)
+checkpoints/
+models/
+*.pt
+*.bin
+*.safetensors
+*.zip
+
+# Ignore IDE settings
+.vscode/
+.idea/
