@@ -7,10 +7,10 @@ Fine-tuning PaliGemma-3B for handwritten mathematical notation to LaTeX transcri
 The model learns to transcribe handwritten math into LaTeX, handling Greek letters, accents, and subscripts.
 
 **Example:**
-
+Input images are resized to 224×224 to match PaliGemma-3B's pretrained resolution.
 | Handwritten Input | Model Output |
 |---|---|
-| ![math_0](https://github.com/Retieun/math-notation-vlm/raw/main/data/math_writing/images/math_0.png) | `V(\tilde{\phi}_{3})` |
+| ![math_input_224](https://github.com/user-attachments/assets/038d6804-1928-41b4-8110-84082a69f40c) | `V(\tilde{\phi}_{3})` |
 
 Training loss converged from ~3.0 to 0.57 over 3 epochs with ~6.6M trainable parameters (0.22% of the full model).
 
